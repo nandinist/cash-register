@@ -1,5 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+body {
+  background-color: #ccfbf1;
+  font-family: "Montserrat", sans-serif;
+}
 .container {
   display: flex;
   flex-direction: column;
   width: 50vw;
+  text-align: center;
+  padding-left: 340px;
+  padding-top: 100px;
+}
+#bill-amount {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#cash-given {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#check-button {
+  padding: 20px;
+  background-color: #0ea5e9;
+  font-weight: bold;
 }
