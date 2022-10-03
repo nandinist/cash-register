@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
 body {
-  background-color: #ccfbf1;
   font-family: "Montserrat", sans-serif;
 }
 .container {
@@ -26,5 +25,6 @@ body {
 #check-button {
   padding: 20px;
   background-color: #0ea5e9;
-  font-weight: bold;
+  border-radius: 3px;
+  font-size: 20px;
 }
